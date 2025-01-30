@@ -1,8 +1,10 @@
+import HomePage from "./home/page";
+
 function Home() {
   return (
-    <div>
-      <h1>salom</h1>
-    </div>
+    <>
+      <HomePage />
+    </>
   );
 }
 
