@@ -9,7 +9,9 @@ function Navbar() {
   return (
     <section className="  w-[90%] py-4 m-auto flex items-center justify-between">
       <div className=" ">
-        <Image src="/logo.svg" alt="Tavsif matni" width={100} height={100} />
+        <Link href="/">
+          <Image src="/logo.svg" alt="Tavsif matni" width={100} height={100} />
+        </Link>
       </div>
       <div className="flex items-center gap-[40px] ">
         <Link className={styleLink} href={"/"}>

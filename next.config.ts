@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
+// next.config.js
 
-const nextConfig: NextConfig = {
-  /* config options here */
+module.exports = {
+  images: {
+    domains: ["encrypted-tbn0.gstatic.com"], // Rasm manbasini qo'shish
+  },
 };
-
-export default nextConfig;
